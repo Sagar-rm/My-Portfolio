@@ -35,25 +35,7 @@ const Footer = () => {
             />
           </div>
 
-          <div className="flex justify-center space-x-6 mb-6">
-            {[
-              { icon: Github, href: "https://github.com", label: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:sagar@example.com", label: "Email" },
-            ].map((social) => (
-              <motion.a
-                key={social.label}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-cyan-400 transition-colors duration-300 cursor-hover"
-                whileHover={{ scale: 1.2, y: -2 }}
-                whileTap={{ scale: 0.9 }}
-              >
-                <social.icon className="w-6 h-6" />
-              </motion.a>
-            ))}
-          </div>
+          
 
           <motion.div
             className="inline-block"

@@ -87,8 +87,8 @@ const HeroSection = () => {
               Contact Me
             </Button>
           </motion.div>
-
-          {/* Stats */}
+{/* 
+          Stats
           <motion.div
             className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
@@ -118,7 +118,7 @@ const HeroSection = () => {
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-hover"
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-        >
+        > */}
           <ChevronDown className="w-8 h-8 text-cyan-400" />
         </motion.div>
       </motion.div>

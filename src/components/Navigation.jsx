@@ -71,7 +71,7 @@ const Navigation = () => {
 
         <div className="flex space-x-4">
           <motion.a
-            href="https://github.com"
+            href="https://github.com/Sagar-rm"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-hover"
@@ -81,7 +81,7 @@ const Navigation = () => {
             <Github className="w-6 h-6 text-white hover:text-cyan-400" />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sagar-rathod-/"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-hover"
@@ -90,9 +90,17 @@ const Navigation = () => {
           >
             <Linkedin className="w-6 h-6 text-white hover:text-cyan-400" />
           </motion.a>
-          <motion.button className="cursor-hover" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
-            <Download className="w-6 h-6 text-white hover:text-cyan-400" />
-          </motion.button>
+          <motion.a
+  href="/Sagar_Resume.pdf"
+  download="Sagar_Resume.pdf"
+  className="cursor-hover"
+  whileHover={{ scale: 1.2 }}
+  whileTap={{ scale: 0.9 }}
+>
+  <Download className="w-6 h-6 text-white hover:text-cyan-400" />
+</motion.a>
+
+          
         </div>
       </div>
 

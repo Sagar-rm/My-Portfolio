@@ -33,19 +33,13 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "sagar@example.com",
-      href: "mailto:sagar@example.com",
+      value: "sagarrathod292007@gmail.com",
+      href: "sagarrathod292007@gmail.com.com",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Mumbai, India",
-      href: "#",
-    },
-    {
-      icon: Calendar,
-      label: "Availability",
-      value: "Open to opportunities",
+      value: "Benglore, India",
       href: "#",
     },
   ]
@@ -189,9 +183,9 @@ const ContactSection = () => {
               <h4 className="text-white font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4">
                 {[
-                  { icon: Github, href: "https://github.com", label: "GitHub", color: "hover:bg-gray-600" },
-                  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn", color: "hover:bg-blue-600" },
-                  { icon: Mail, href: "mailto:sagar@example.com", label: "Email", color: "hover:bg-red-600" },
+                  { icon: Github, href: "https://github.com/Sagar-rm", label: "GitHub", color: "hover:bg-gray-600" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/sagar-rathod-/", label: "LinkedIn", color: "hover:bg-blue-600" },
+                  { icon: Mail, href: "sagarrathod292007@gmail.com", label: "Email", color: "hover:bg-red-600" },
                 ].map((social) => (
                   <motion.a
                     key={social.label}
